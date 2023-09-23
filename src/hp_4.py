@@ -1,5 +1,4 @@
-# hp_4.py
-#
+
 from datetime import datetime, timedelta
 from csv import DictReader, DictWriter
 from collections import defaultdict
@@ -107,5 +106,5 @@ if __name__ == '__main__':
     with open(OUTFILE) as f:
         print(f.read())
 		
-	----------------------------------------------------
+	
 
